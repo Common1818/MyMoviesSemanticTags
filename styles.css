@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+
+/* Header */
+
+.main-header {
+    background-image: url('https://images.unsplash.com/photo-1477336229416-9d67406e73bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+/* Navbar */
+
+.nav ul {
+    padding: 5px;
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.nav li {
+    display: inline-block;
+    padding: 10px 40px;
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 0.5em;
+    color: white;
+}
+
+.nav li:hover a {
+    color: rgb(23, 157, 247);
+}
+
+.name {
+    color: white;
+    text-align: center;
+    padding: 0 0.5em;
+    margin: 0;
+    font-size: 4em;
+    font-weight: normal;
+    margin: 0.5em;
+    font-family: Metal Mania;
+}
+
+.main-header button {
+    font-size: 4.5em;
+    color: #2d9cdb;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #2d9cdb;
+    width: 100px;
+    height: 100px;
+}
+
+.main-header button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.main-section {
+    background-color: #fdfdfd;
+    padding: 2vh 10vw;
+    position: absolute;
+    top: 42vh;
+    left: 0;
+    right: 0;
+}
+
+.filters {
+    padding: 2vh 0;
+}
+
+.main-section .filters .heading {
+    font-size: 2em;
+    font-family: Metal Mania;
+    color: black;
+}
+
+.movies-images {
+    padding-left: 5px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.movies-images img {
+    height: 25vh;
+    width: 13vw;
+    border-radius: 50%;
+    margin: 15px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.movies-images img:hover {
+    filter: brightness(50%);
+    border: 4px solid black;
+}
+
+.main-footer {
+    height: 15vh;
+    width: 100%;
+    position: absolute;
+    top: 150vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2d9cdb;
+}
+
+
+/* Requests.html */
+
+.main-section .request-heading {
+    text-align: center;
+    font-size: 4rem;
+    font-family: Metal Mania;
+}
+
+.main-section form {
+    padding: 2vh 10vw;
+}
+
+.main-section form .form-group {
+    padding: 20px;
+}
+
+.main-section form .form-group label {
+    margin: 10px;
+    font-size: 2rem;
+}
+
+.main-section form .form-group input,
+.main-section form .form-group select {
+    margin: 20px;
+    font-size: 1.8rem;
+}
+
+.main-section form [type='submit'] {
+    display: block;
+    padding: 10px 20px;
+    margin: auto;
+    font-size: 2rem;
+    color: #ffffff;
+    background-color: #30a2e4;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
+
+.main-section form [type='submit']:hover {
+    background-color: #ffffff;
+    color: #30a2e4;
+    border: 2px solid #30a2e4;
+}
+
+
+/* About me */
+
+.main-section .aboutme-heading {
+    text-align: center;
+    font-size: 4rem;
+    font-family: Metal Mania;
+}
+
+.main-section .main-section-container {
+    padding: 2vh 10vw;
+}
+
+.main-section .main-section-container img {
+    float: left;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    margin-bottom: 20px;
+}
+
+.main-section .main-section-container .about-text {
+    font-size: 1.2rem;
+    margin-left: 100px;
+}

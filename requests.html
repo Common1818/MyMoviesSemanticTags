@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="page-container">
+        <header class="main-header">
+            <nav class="nav">
+                <ul>
+                    <li>
+                        <a href="index.html"> Home </a>
+                    </li>
+                    <li>
+                        <a href="requests.html"> Request </a>
+                    </li>
+                    <li>
+                        <a href="aboutme.html"> About</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="name">My Movies</div>
+            <button type="button">
+                    &#9658;
+            </button>
+        </header>
+        <section class="main-section">
+            <h1 class="request-heading">Any Request ?</h1>
+            <form>
+                <div class="form-group">
+                    <label for="movieName">
+                    Movie Name
+                     </label>
+                    <input type="text" id="movieName" placeholder="Enter name here" />
+                </div>
+                <div class="form-group">
+                    <label for="releaseDate">
+                    Release Date
+                </label>
+                    <input type="date" id="releaseDate" />
+                </div>
+                <div class="form-group">
+                    <label for="genre">Genre</label>
+                    <select id="genre">
+                        <option value="Horror">Horror</option>
+                        <option value="Thriller">Thriller</option>
+                        <option value="Romance">Romance</option>
+                        <option value="Family">Family</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="language">Language</label>
+                    <select id="language">
+                        <option value="Hindi">Hindi</option>
+                        <option value="English">English</option>
+                        <option value="Tamil">Tamil</option>
+                    </select>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <footer class="main-footer">
+
+        </footer>
+</body>
+
+</html>
